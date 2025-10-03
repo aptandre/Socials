@@ -1,4 +1,4 @@
-import { AppColors } from "../constants/colors";
+import { AppColors } from "../../constants/colors";
 
 interface ClickableSocialProps {
     label: string;
