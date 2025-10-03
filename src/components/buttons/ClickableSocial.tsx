@@ -9,7 +9,7 @@ const ClickableSocial = ({ label, link }: ClickableSocialProps) => {
     return (
         <a style={{
             width: '80%',
-            height: '10%',
+            height: '20%',
             borderRadius: '6px',
             display: 'flex',
             flexDirection: 'column',

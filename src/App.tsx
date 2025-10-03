@@ -14,26 +14,42 @@ function App() {
         height: '600px',
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'space-around',
         alignItems: 'center',
-        padding: '64px 16px'
+        padding: '48px 16px',
+        borderRadius: '12px'
     }}
     >
       <img src={image} alt="me"
       style={{
-        width: '30%',
-        height: '25%',
+        width: '40%',
+        height: '28%',
         borderRadius: '50%'
       }} />
+
+      <div>
+        <p style= {{
+          fontWeight: 'bold',
+          fontSize: '24px',
+          marginBottom: '10px'
+        }}>André Alves</p>
+
+        <p style={{
+          margin: '0'
+        }}>Campina Grande, PB</p>
+
+        <p style={{
+          color: '#5971dcff',
+          fontWeight: 'bold'
+        }}>Software Developer | AI Researcher</p>
+      </div>
+
       <div style={{
-        backgroundColor: AppColors.PRIMARY,
         width: '400px',
-        height: '600px',
+        height: '300px',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-around',
         alignItems: 'center',
- 
       }}>
 
         <ClickableSocial label='Linkedin' link='https://linkedin.com/in/aptandre'></ClickableSocial>
@@ -42,6 +58,7 @@ function App() {
         <ClickableSocial label='Twitter' link='#'></ClickableSocial>
 
       </div>
+
     </div>
       
     </>
